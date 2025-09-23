@@ -1,31 +1,64 @@
-Simple CLI Calculator
+📝 To-Do List CLI App
 
-This is a basic command-line calculator made with Python.
-It supports addition, subtraction, multiplication, and division.
+ Objective:
 
-Features:
+A simple console-based To-Do List application built with Python. It allows you to add, view, and remove tasks with persistent storage in a text file.
 
-* Add, subtract, multiply, and divide numbers
+🛠 Tools
 
-* Handles invalid input and division by zero
+Python
 
-* Easy to use in the terminal
+VS Code / Terminal
 
-How to Run--
 
-1. Make sure you have Python 3 installed.
-2. Download or clone this project.
-3. Run the program:
+ Features:
 
-python calculator.py
+Add new tasks
 
-Example:
+View all tasks
 
-===== Simple CLI Calculator =====
-Available operations: + , - , * , /
-Type 'exit' to quit the program.
+Remove tasks by number
 
-Enter operation (+, -, *, /) or 'exit': +
-Enter first number: 5
-Enter second number: 3
-Result: 8.0
+Persistent storage in tasks.txt
+
+
+ How to Run:
+
+1. Clone or download the project.
+
+
+2. Open terminal in the project folder.
+
+
+3. Run:
+
+python todo.py
+
+
+
+📖 Example Output
+
+===== TO-DO LIST MENU =====
+1. View Tasks
+2. Add Task
+3. Remove Task
+4. Exit
+Enter your choice (1-4): 2
+Enter a new task: Finish Python Project
+Task added successfully!
+
+===== TO-DO LIST MENU =====
+1. View Tasks
+2. Add Task
+3. Remove Task
+4. Exit
+Enter your choice (1-4): 1
+
+Your To-Do List:
+1. Finish Python Project
+
+✅ Tasks are saved in tasks.txt, so they remain even after restarting the program.
+
+✅ Outcome
+
+A persistent CLI To-Do app to manage your daily tasks efficiently.
