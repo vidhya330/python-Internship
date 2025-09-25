@@ -1,38 +1,34 @@
-Simple CLI Calculator
+ News Scraper--
 
-This is a basic command-line calculator made with Python.
-It supports addition, subtraction, multiplication, and division.
+A simple Python script to scrape headlines from any news website and save them in a text file.
+ Features:
+- Extracts headlines from <h1>, <h2>, <h3>, and <title> tags.
+- Saves results to headlines.txt.
+- Easy to change the news website URL.
 
-Features:
+Requirements:
+- Python 3.x  
+- requests and beautifulsoup4  
+```bash
+pip install requests beautifulsoup4
 
-Add, subtract, multiply, and divide numbers
+Usage:
 
-Handles invalid input and division by zero
+1. Set the URL in news_scraper.py:
 
-Easy to use in the terminal
+news_url = "https://www.bbc.com/news"
 
+2. Run:
 
-How to Run:
+python news_scraper.py
 
-1. Make sure you have Python 3 installed.
+3. Check headlines.txt for the output.
 
+Example Output
 
-2. Download or clone this project.
+1. Ukraine conflict: Latest updates
+2. Global markets react to new policies
+3. Climate change warnings
 
-
-3. Run the program:
-
-python calculator.py
-
-Example
-
-===== Simple CLI Calculator =====
-Available operations: + , - , * , /
-Type 'exit' to quit the program.
-
-Enter operation (+, -, *, /) or 'exit': +
-Enter first number: 5
-Enter second number: 3
-Result: 8.0
 
 
