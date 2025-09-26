@@ -30,7 +30,7 @@ pip install flask
 
 python app.py
 
-3. Open API in browser or test with Postman at:
+3. Open API in browser test at:
 
 http://127.0.0.1:5000
 
