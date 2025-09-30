@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Vidhya — A Python Developer Intern</p>
+    </header>
+
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <p>I am passionate about Python development, Flask projects, and building real-world applications. 
+           This is my mini portfolio website built with Flask.</p>
+
+        <h2>Projects</h2>
+        <ul>
+            <li>Weather Data Analyzer</li>
+            <li>Flask REST API</li>
+            <li>News Scraper</li>
+            <li>Portfolio Website (this one!)</li>
+        </ul>
+    </div>
+</body>
+</html>
