@@ -29,4 +29,4 @@ while True:
         break
     
     else:
-        print("🤖 Chatbot: Sorry, I don’t understand that. Can you rephrase?")
+        print(" Chatbot: Sorry, I don’t understand that. Can you rephrase?")
